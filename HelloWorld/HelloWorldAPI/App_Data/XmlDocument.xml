@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HelloWorldAPI</name>
+    </assembly>
+    <members>
+        <member name="T:HelloWorldAPI.LightInjectConfig">
+            <summary>
+            Configures dependency injection via LightInject
+            </summary>
+        </member>
+        <member name="M:HelloWorldAPI.LightInjectConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Registers main components
+            </summary>
+            <param name="config">Http Configuration</param>
+        </member>
+        <member name="M:HelloWorldAPI.LightInjectConfig.RegisterServices(LightInject.IServiceRegistry)">
+            <summary>
+            Registers the dependency services to be injected
+            </summary>
+            <param name="serviceRegistry">The Service Registry</param>
+        </member>
+        <member name="T:HelloWorldAPI.WebApiApplication">
+            <summary>
+            Starts the main Web Application
+            </summary>
+        </member>
+        <member name="M:HelloWorldAPI.WebApiApplication.Application_Start">
+            <summary>
+            Starts the Web Application
+            </summary>
+        </member>
+    </members>
+</doc>
